@@ -190,3 +190,4 @@ const products = [
     image: "src/assets/images/power/71kPNtypaoL._AC_UY218_.jpg",
   },
 ];
+export default products;

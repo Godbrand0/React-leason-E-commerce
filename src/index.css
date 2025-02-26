@@ -7,3 +7,9 @@
 body {
   font-family: "poppins";
 }
+
+.bg {
+  background: url("./assets/images/showcase/flat-lay-desktop-with-laptop-magnifier.jpg");
+  background-size: cover;
+  height: 70vh;
+}

@@ -1,4 +1,4 @@
-import { User } from "lucide-react";
+import { User, ShoppingCart } from "lucide-react";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/showcase/logo.svg";
@@ -59,6 +59,19 @@ export default function Navbar() {
               />
             </Link>
           </div>
+          <form className="w-1/2 sm:block hidden">
+            <input
+              type="text"
+              placeholder="Search Product"
+              className="bg-zinc-100 rounded border border-zinz-200 focus:outline-none py-3 px-3 w-full"
+            />
+          </form>
+          <Link to="/cart">
+            <ShoppingCart
+              size={54}
+              className="cursor-pointer bg-gray-100 px-3 rounded-full py-2"
+            />
+          </Link>
         </nav>
       </>
     </header>
