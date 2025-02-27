@@ -1,4 +1,6 @@
 import React from "react";
+import ProductGrid from "../components/ProductGrid";
+import Footer from "../components/Footer";
 
 const categories = ["All", "Graphics Card", "Laptop", "Power", "Monitor"];
 
@@ -19,7 +21,10 @@ export default function Home() {
             );
           })}
         </div>
+
+        <ProductGrid />
       </div>
+      <Footer />
     </div>
   );
 }
