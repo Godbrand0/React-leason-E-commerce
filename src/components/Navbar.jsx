@@ -2,9 +2,13 @@ import { User, ShoppingCart } from "lucide-react";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/showcase/logo.svg";
+import { useDispatch, useSelector } from "react-redux";
+import { setSearchTerm } from "../features/products/ProductSlice";
 
 export default function Navbar() {
   const [isOpen, SetIsOpen] = useState(false);
+  const dispatch = useDispatch();
+  const searchTerm = useSelector((state) => state.product.searchTerm);
 
   const handleUser = () => {
     SetIsOpen(!isOpen);
@@ -64,6 +68,8 @@ export default function Navbar() {
               type="text"
               placeholder="Search Product"
               className="bg-zinc-100 rounded border border-zinz-200 focus:outline-none py-3 px-3 w-full"
+              value={searchTerm}
+              onChange={(e) => dispatch(setSearchTerm(e.target.value))}
             />
           </form>
           <Link to="/cart">

@@ -10,7 +10,7 @@ const products = [
   },
   {
     id: 2,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "GIGABYTE Radeon RX 9070",
     category: "Graphics card",
     price: 1004.99,
     description:
@@ -19,7 +19,7 @@ const products = [
   },
   {
     id: 3,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "ASUS Gaming Graphics Card",
     price: 236.99,
     category: "Graphics card",
     description:
@@ -29,7 +29,7 @@ const products = [
 
   {
     id: 4,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "ASUS Dual NVIDIA GeForce RTX 3050",
     price: 929.99,
     category: "Graphics card",
     description:
@@ -38,7 +38,7 @@ const products = [
   },
   {
     id: 5,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "RX 580 8G Graphic Cards",
     price: 459.99,
     category: "Graphics card",
     description:
@@ -47,7 +47,7 @@ const products = [
   },
   {
     id: 6,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "Apple 2024 MacBook",
     price: 299.99,
     category: "Laptop",
     description:
@@ -56,7 +56,7 @@ const products = [
   },
   {
     id: 7,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "2020 Apple MacBook Air",
     price: 349.99,
     category: "Laptop",
     description:
@@ -65,7 +65,7 @@ const products = [
   },
   {
     id: 8,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "Apple 2024 MacBook",
     price: 569.99,
     category: "Laptop",
     description:
@@ -74,7 +74,7 @@ const products = [
   },
   {
     id: 9,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "Apple 13in MacBook Pro",
     price: 654.99,
     category: "Laptop",
     description:
@@ -83,7 +83,7 @@ const products = [
   },
   {
     id: 10,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "Apple Macbook Air 2017 ",
     price: 922.99,
     category: "Laptop",
     description:
@@ -92,7 +92,7 @@ const products = [
   },
   {
     id: 11,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "STGSivir All in One Desktop Computer",
     price: 123.99,
     category: "Monitor",
     description:
@@ -101,7 +101,7 @@ const products = [
   },
   {
     id: 12,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "STGSivir All in One Desktop Computer",
     price: 290.99,
     category: "Monitor",
     description:
@@ -110,7 +110,7 @@ const products = [
   },
   {
     id: 13,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "2019 Apple iMac",
     price: 859.99,
     category: "Monitor",
     description:
@@ -119,7 +119,7 @@ const products = [
   },
   {
     id: 14,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "Apple iMac 27-inch",
     price: 549.99,
     category: "Monitor",
     description:
@@ -128,7 +128,7 @@ const products = [
   },
   {
     id: 15,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "Apple iMac MK472LL/A",
     price: 219.99,
     category: "Monitor",
     description:
@@ -137,7 +137,7 @@ const products = [
   },
   {
     id: 16,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "Dell S2425HS Monitor",
     price: 999.99,
     category: "Monitor",
     description:
@@ -146,7 +146,7 @@ const products = [
   },
   {
     id: 17,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "CORSAIR RM850x",
     price: 889.99,
     category: "Power",
     description:
@@ -155,7 +155,7 @@ const products = [
   },
   {
     id: 18,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "CORSAIR RM750x",
     price: 797.99,
     category: "Power",
     description:
@@ -164,7 +164,7 @@ const products = [
   },
   {
     id: 19,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "NZXT C850 Gold ATX 3.1 ",
     price: 453.99,
     category: "Power",
     description:
@@ -173,7 +173,7 @@ const products = [
   },
   {
     id: 20,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "MSI MAG A850GL PCIE 5.1 & ATX 3.1",
     price: 126.99,
     category: "Power",
     description:
@@ -182,7 +182,7 @@ const products = [
   },
   {
     id: 21,
-    title: "Asus ProArt GForce RTX 4070",
+    title: "AGV Series 500W",
     price: 892.99,
     category: "Power",
     description:

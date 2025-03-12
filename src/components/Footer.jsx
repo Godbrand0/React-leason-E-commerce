@@ -92,10 +92,12 @@ export default function Footer() {
             </div>
             <div>
               <h2 className="text-2xl font-semibold my-4 "> Pages</h2>
+              <p>
+                70 Washington square South, New York, Ny 10012, United States
+              </p>
+              <p>+12343443232</p>
+              <p>+12343443232</p>
             </div>
-            <p>70 Washington square South, New York, Ny 10012, United States</p>
-            <p>+12343443232</p>
-            <p>+12343443232</p>
           </div>
         </div>
       </div>
